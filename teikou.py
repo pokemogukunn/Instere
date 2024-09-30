@@ -23,6 +23,7 @@ routes = {
     '/test.html': 'test.html',
     '/settings': 'settings.html',
     '/settings.html': 'settings.html'
+    './play/*/index.html': 'index.html',
 }
 
 @app.route('/')
